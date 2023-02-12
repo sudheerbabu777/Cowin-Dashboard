@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #161625;
+  height: 100vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.log-image {
+  color: #cbd5e1;
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+}
+
+.co-win {
+  font-weight: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  color: #2cc6c6;
+  margin-left: 20px;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-image {
+  width: 600px;
+  height: 500px;
+}
+
+.failure-title {
+  font-weight: 'Roboto';
+  font-size: 54px;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+.failure-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
